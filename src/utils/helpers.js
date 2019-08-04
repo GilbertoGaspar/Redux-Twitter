@@ -13,6 +13,7 @@ export function formatTweet (tweet, author, authedUser, parentTweet) {
     id,
     timestamp,
     text,
+    authedUser,
     avatar: avatarURL,
     likes: likes.length,
     replies: replies.length,
